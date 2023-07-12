@@ -10,7 +10,6 @@
 		A55BA9B92A5F378B0023B93A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A55BA9B82A5F378B0023B93A /* AppDelegate.swift */; };
 		A55BA9BB2A5F378B0023B93A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A55BA9BA2A5F378B0023B93A /* SceneDelegate.swift */; };
 		A55BA9BD2A5F378B0023B93A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A55BA9BC2A5F378B0023B93A /* ViewController.swift */; };
-		A55BA9C02A5F378B0023B93A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A55BA9BE2A5F378B0023B93A /* Main.storyboard */; };
 		A55BA9C22A5F378C0023B93A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A55BA9C12A5F378C0023B93A /* Assets.xcassets */; };
 		A55BA9C52A5F378C0023B93A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A55BA9C32A5F378C0023B93A /* LaunchScreen.storyboard */; };
 		A55BA9D02A5F378C0023B93A /* tip_calculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A55BA9CF2A5F378C0023B93A /* tip_calculatorTests.swift */; };
@@ -45,7 +44,6 @@
 		A55BA9B82A5F378B0023B93A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A55BA9BA2A5F378B0023B93A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		A55BA9BC2A5F378B0023B93A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		A55BA9BF2A5F378B0023B93A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A55BA9C12A5F378C0023B93A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A55BA9C42A5F378C0023B93A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A55BA9C62A5F378C0023B93A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -113,7 +111,6 @@
 				A55BA9B82A5F378B0023B93A /* AppDelegate.swift */,
 				A55BA9BA2A5F378B0023B93A /* SceneDelegate.swift */,
 				A55BA9BC2A5F378B0023B93A /* ViewController.swift */,
-				A55BA9BE2A5F378B0023B93A /* Main.storyboard */,
 				A55BA9C12A5F378C0023B93A /* Assets.xcassets */,
 				A55BA9C32A5F378C0023B93A /* LaunchScreen.storyboard */,
 				A55BA9C62A5F378C0023B93A /* Info.plist */,
@@ -267,7 +264,6 @@
 			files = (
 				A55BA9C52A5F378C0023B93A /* LaunchScreen.storyboard in Resources */,
 				A55BA9C22A5F378C0023B93A /* Assets.xcassets in Resources */,
-				A55BA9C02A5F378B0023B93A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -331,14 +327,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		A55BA9BE2A5F378B0023B93A /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A55BA9BF2A5F378B0023B93A /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		A55BA9C32A5F378C0023B93A /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -476,7 +464,6 @@
 				INFOPLIST_FILE = "tip-calculator/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -504,7 +491,6 @@
 				INFOPLIST_FILE = "tip-calculator/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
