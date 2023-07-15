@@ -29,6 +29,7 @@
 		A55BAA052A6303BE0023B93A /* ThemeFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = A55BAA042A6303BE0023B93A /* ThemeFont.swift */; };
 		A55BAA0A2A63045A0023B93A /* UIColor-Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A55BAA092A63045A0023B93A /* UIColor-Extension.swift */; };
 		A55BAA0C2A63446E0023B93A /* LabelFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = A55BAA0B2A63446E0023B93A /* LabelFactory.swift */; };
+		A55BAA0F2A634F7F0023B93A /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A55BAA0E2A634F7F0023B93A /* UIView+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,6 +71,7 @@
 		A55BAA042A6303BE0023B93A /* ThemeFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeFont.swift; sourceTree = "<group>"; };
 		A55BAA092A63045A0023B93A /* UIColor-Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor-Extension.swift"; sourceTree = "<group>"; };
 		A55BAA0B2A63446E0023B93A /* LabelFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelFactory.swift; sourceTree = "<group>"; };
+		A55BAA0E2A634F7F0023B93A /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -189,6 +191,7 @@
 			isa = PBXGroup;
 			children = (
 				A55BAA092A63045A0023B93A /* UIColor-Extension.swift */,
+				A55BAA0E2A634F7F0023B93A /* UIView+Extension.swift */,
 			);
 			path = extension;
 			sourceTree = "<group>";
@@ -348,6 +351,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A55BA9BD2A5F378B0023B93A /* CalculatorVC.swift in Sources */,
+				A55BAA0F2A634F7F0023B93A /* UIView+Extension.swift in Sources */,
 				A55BA9F82A62FDE70023B93A /* LogoView.swift in Sources */,
 				A55BAA032A6303B80023B93A /* ThemeColor.swift in Sources */,
 				A55BA9FC2A62FF130023B93A /* BillInputView.swift in Sources */,
