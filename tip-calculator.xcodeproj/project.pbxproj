@@ -30,6 +30,7 @@
 		A55BAA0A2A63045A0023B93A /* UIColor-Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A55BAA092A63045A0023B93A /* UIColor-Extension.swift */; };
 		A55BAA0C2A63446E0023B93A /* LabelFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = A55BAA0B2A63446E0023B93A /* LabelFactory.swift */; };
 		A55BAA0F2A634F7F0023B93A /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A55BAA0E2A634F7F0023B93A /* UIView+Extension.swift */; };
+		A55BAA112A63D0A20023B93A /* AmountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A55BAA102A63D0A20023B93A /* AmountView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -72,6 +73,7 @@
 		A55BAA092A63045A0023B93A /* UIColor-Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor-Extension.swift"; sourceTree = "<group>"; };
 		A55BAA0B2A63446E0023B93A /* LabelFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelFactory.swift; sourceTree = "<group>"; };
 		A55BAA0E2A634F7F0023B93A /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		A55BAA102A63D0A20023B93A /* AmountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmountView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -170,10 +172,11 @@
 			isa = PBXGroup;
 			children = (
 				A55BA9F72A62FDE70023B93A /* LogoView.swift */,
-				A55BA9FB2A62FF130023B93A /* BillInputView.swift */,
 				A55BA9F92A62FEF70023B93A /* ResultView.swift */,
+				A55BA9FB2A62FF130023B93A /* BillInputView.swift */,
 				A55BA9FD2A62FF270023B93A /* TipInputView.swift */,
 				A55BA9FF2A62FF3E0023B93A /* SplitInputView.swift */,
+				A55BAA102A63D0A20023B93A /* AmountView.swift */,
 			);
 			path = view;
 			sourceTree = "<group>";
@@ -350,6 +353,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A55BAA112A63D0A20023B93A /* AmountView.swift in Sources */,
 				A55BA9BD2A5F378B0023B93A /* CalculatorVC.swift in Sources */,
 				A55BAA0F2A634F7F0023B93A /* UIView+Extension.swift in Sources */,
 				A55BA9F82A62FDE70023B93A /* LogoView.swift in Sources */,
