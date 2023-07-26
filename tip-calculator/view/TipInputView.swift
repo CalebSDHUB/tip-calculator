@@ -20,7 +20,7 @@ class TipInputView: UIView {
     }()
     
     private lazy var fiftyPercentTipButton: UIButton = {
-        let button = buildTipButton(tip: .fiftenPencent)
+        let button = buildTipButton(tip: .fifteenPencent)
         return button
     }()
     
