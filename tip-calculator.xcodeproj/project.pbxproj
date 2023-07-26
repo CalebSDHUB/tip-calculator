@@ -31,6 +31,8 @@
 		A55BAA0C2A63446E0023B93A /* LabelFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = A55BAA0B2A63446E0023B93A /* LabelFactory.swift */; };
 		A55BAA0F2A634F7F0023B93A /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A55BAA0E2A634F7F0023B93A /* UIView+Extension.swift */; };
 		A55BAA112A63D0A20023B93A /* AmountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A55BAA102A63D0A20023B93A /* AmountView.swift */; };
+		A5BD24D92A71BBED004FDA10 /* Tip.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5BD24D82A71BBED004FDA10 /* Tip.swift */; };
+		A5BD24DB2A71BC1B004FDA10 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5BD24DA2A71BC1B004FDA10 /* HeaderView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -74,6 +76,8 @@
 		A55BAA0B2A63446E0023B93A /* LabelFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelFactory.swift; sourceTree = "<group>"; };
 		A55BAA0E2A634F7F0023B93A /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
 		A55BAA102A63D0A20023B93A /* AmountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmountView.swift; sourceTree = "<group>"; };
+		A5BD24D82A71BBED004FDA10 /* Tip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tip.swift; sourceTree = "<group>"; };
+		A5BD24DA2A71BC1B004FDA10 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,6 +134,7 @@
 		A55BA9B72A5F378B0023B93A /* tip-calculator */ = {
 			isa = PBXGroup;
 			children = (
+				A5BD24D72A71BBDE004FDA10 /* model */,
 				A55BAA0D2A6345060023B93A /* factory */,
 				A55BAA082A63044A0023B93A /* extension */,
 				A55BAA012A6303A40023B93A /* config */,
@@ -177,6 +182,7 @@
 				A55BA9FD2A62FF270023B93A /* TipInputView.swift */,
 				A55BA9FF2A62FF3E0023B93A /* SplitInputView.swift */,
 				A55BAA102A63D0A20023B93A /* AmountView.swift */,
+				A5BD24DA2A71BC1B004FDA10 /* HeaderView.swift */,
 			);
 			path = view;
 			sourceTree = "<group>";
@@ -205,6 +211,14 @@
 				A55BAA0B2A63446E0023B93A /* LabelFactory.swift */,
 			);
 			path = factory;
+			sourceTree = "<group>";
+		};
+		A5BD24D72A71BBDE004FDA10 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				A5BD24D82A71BBED004FDA10 /* Tip.swift */,
+			);
+			path = model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -365,8 +379,10 @@
 				A55BA9BB2A5F378B0023B93A /* SceneDelegate.swift in Sources */,
 				A55BAA002A62FF3E0023B93A /* SplitInputView.swift in Sources */,
 				A55BAA0C2A63446E0023B93A /* LabelFactory.swift in Sources */,
+				A5BD24D92A71BBED004FDA10 /* Tip.swift in Sources */,
 				A55BA9FE2A62FF270023B93A /* TipInputView.swift in Sources */,
 				A55BAA0A2A63045A0023B93A /* UIColor-Extension.swift in Sources */,
+				A5BD24DB2A71BC1B004FDA10 /* HeaderView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
