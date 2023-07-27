@@ -12,7 +12,7 @@ import CombineCocoa
 class CalculatorVM {
     // Input from View Controller
     struct Input {
-        let buildPublisher: AnyPublisher<Double, Never>
+        let billPublisher: AnyPublisher<Double, Never>
         let tipPublisher: AnyPublisher<Tip, Never>
         let splitPublisher: AnyPublisher<Int, Never>
     }
@@ -25,8 +25,8 @@ class CalculatorVM {
     private var cancellables = Set<AnyCancellable>()
     
     func transform(input: Input) -> Output {
-        input.buildPublisher.sink { bill in
-            print("The Bill \(bill)")
+        input.tipPublisher.sink { tip in
+            print("The tip \(tip)")
         }.store(in: &cancellables)
         
         let result = Result(
