@@ -7,6 +7,7 @@
 
 import Foundation
 import Combine
+import CombineCocoa
 
 class CalculatorVM {
     // Input from View Controller
@@ -21,7 +22,13 @@ class CalculatorVM {
         let updateViewPublisher: AnyPublisher<Result, Never>
     }
     
+    private var cancellables = Set<AnyCancellable>()
+    
     func transform(input: Input) -> Output {
+        input.buildPublisher.sink { bill in
+            print("The Bill \(bill)")
+        }.store(in: &cancellables)
+        
         let result = Result(
             amountPerPerson: 500,
             totalBill: 1000,
