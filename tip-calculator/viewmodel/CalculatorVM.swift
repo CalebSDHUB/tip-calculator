@@ -25,8 +25,8 @@ class CalculatorVM {
     private var cancellables = Set<AnyCancellable>()
     
     func transform(input: Input) -> Output {
-        input.tipPublisher.sink { tip in
-            print("The tip \(tip)")
+        input.splitPublisher.sink { tip in
+            print("The split \(tip)")
         }.store(in: &cancellables)
         
         let result = Result(
