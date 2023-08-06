@@ -49,10 +49,6 @@ final class tip_calculatorTests: XCTestCase {
         }.store(in: &cancellables)
     }
     
-    // -$100 bill
-    // -no tip
-    // -1 person
-    
     func testResultWithoutTipFor2Person() {
         // Given
         let bill: Double = 100.0
@@ -100,10 +96,6 @@ final class tip_calculatorTests: XCTestCase {
             XCTAssertEqual(result.totalTip, 201)
         }.store(in: &cancellables)
     }
-    
-    // - testResultWithoutTipFor2Person
-    // - testResultWith10PercentTipFor2Person
-    // - testResultWithCustomTipFor4Person
     
     func testSoundPlayerAndCalculatorResetOnLogoViewTap() {
         // Given
