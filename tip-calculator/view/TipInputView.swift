@@ -126,6 +126,7 @@ class TipInputView: UIView {
                 textField.placeholder = "Make custom tip"
                 textField.keyboardType = .numberPad
                 textField.autocorrectionType = .no
+                textField.accessibilityIdentifier = ScreenIdentifier.TipInputView.customTipAlertTextField.rawValue
             }
             let cancelAction = UIAlertAction(
                 title: "Cancel",
